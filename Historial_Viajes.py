@@ -72,4 +72,3 @@ class Historial:
             if bus.get_Datos() == bus_a_buscar.get_Datos():
                 return bus
         return None
-

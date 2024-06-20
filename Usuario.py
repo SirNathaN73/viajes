@@ -15,4 +15,3 @@ class Usuario:
         print(f"Correo: {self.correo}")
         print(f"Telefono: {self.telefono}")
 
-   

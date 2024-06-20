@@ -67,4 +67,3 @@ class Controlador:
     def mostrar_buses(self):
         return self.historial.buses
 
-

@@ -25,3 +25,4 @@ class Asiento:
         self.precio = Datos.precios[self.destino][self.tipo_bus][self.numero_asiento]
 
 
+

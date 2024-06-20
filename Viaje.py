@@ -23,4 +23,4 @@ class Viaje:
     
     def get_Datos(self):
         return self.bus.origen, self.bus.destino, self.bus.tipo_bus, self.bus.fecha, self.bus.hora
-        
+    

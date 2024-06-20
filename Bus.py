@@ -38,7 +38,7 @@ class Bus:
                 self.hora
             )
             self.asientos.append(asiento)
-
+            
     def mostrar_precios(self):
         for asiento in self.asientos:
             print(asiento.numero_asiento, asiento.precio)

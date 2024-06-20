@@ -15,7 +15,6 @@ class Terminal:
         self.controlador.init_buses("databus.xlsx")
         self.df = pd.read_excel("databus.xlsx")
         self.entry_values ={}
-    
 
     def show_inicio_screen(self):
         self.inicio_screen = ttk.Frame(self.root, width=1200, height=1000)
